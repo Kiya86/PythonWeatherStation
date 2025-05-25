@@ -2,6 +2,8 @@
 
 A terminal weather app that shows current conditions and 3-day forecasts.
 
+IMPORTANT: Inorder to for code to work properly you NEED to change the API key in the JSON file to your own API key from "WeatherAPI.com." Don't worry I made sure it is free. 
+
 ## Features
 - Current temperature and "feels like"
 - Wind speed and humidity
@@ -11,16 +13,10 @@ A terminal weather app that shows current conditions and 3-day forecasts.
 
 ## Installation
 
-### Option 1: Download Binary
-Download the pre-built binary for your OS:
+### Option 1: Download from Github
+1.) Download the github zip file
+2.) Go to WeatherAPI.com and get a free key
+3.) Replace the API key in the JSON file with your own
+4.) 
 
-- [Windows](binaries/termweather.exe)
-- [macOS](binaries/termweather-macos)
-- [Linux](binaries/termweather-linux)
-
-### Option 2: Run from Source
-```sh
-git clone https://github.com/yourusername/termweather
-cd termweather
-pip install -r requirements.txt
-python main.py check "New York"
+### Option 2: There is none silly goose!
