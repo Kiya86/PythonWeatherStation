@@ -2,7 +2,7 @@
 
 A terminal weather app that shows current conditions and 3-day forecasts.
 
-IMPORTANT: Inorder to for code to work properly you NEED to change the API key in the JSON file to your own API key from "WeatherAPI.com." Don't worry I made sure it is free. 
+IMPORTANT: In order to forthe  code to work properly, you NEED to change the API key in the JSON file to your own API key from "WeatherAPI.com." Don't worry I made sure it is free. 
 
 ## Features
 - Current temperature and "feels like"
@@ -17,6 +17,9 @@ IMPORTANT: Inorder to for code to work properly you NEED to change the API key i
 1.) Download the github zip file
 2.) Go to WeatherAPI.com and get a free key
 3.) Replace the API key in the JSON file with your own
-4.) 
+4.) Go onto command prompt enter the letter the folder is located on followed by ";" 
+5.) Then enter "pip install requests typer" 
+6.) Then run the app using "python main.py check "London"." 
+7.) **Make sure you replace London with your desired location! **
 
 ### Option 2: There is none silly goose!
