@@ -6,7 +6,7 @@ from weather import get_weather, display_weather
 
 app = typer.Typer()
 
-DEFAULT_API_KEY = "e20353f1dc4145aca2e54937252505"  # Your API key
+DEFAULT_API_KEY = "ENTER YOUR API KEY HERE"  
 CONFIG_PATH = Path.home() / ".termweather.json"
 
 def save_config(api_key: str):
@@ -25,11 +25,11 @@ def check(
     api_key: str = typer.Option(None, help="WeatherAPI key (saves after first use)")
 ):
     """Check current weather and forecast"""
-    # Use provided key, saved key, or default key
+    
     key_to_use = api_key or load_config() or DEFAULT_API_KEY
     
     if not api_key and not load_config():
-        save_config(DEFAULT_API_KEY)  # Save the default key if none exists
+        save_config(DEFAULT_API_KEY)  
     
     weather_data = get_weather(key_to_use, location)
     display_weather(weather_data)
